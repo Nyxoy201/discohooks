@@ -27,7 +27,8 @@ pip install discohooks
 ```
 
 ## How To Use
-**To use the library without embed :**
+
+### To use the library without embed :
 
 First, import the library : 
 ```python
@@ -89,7 +90,7 @@ hook.send_file("YOUR_FILE")
 ```
 
 
-**To use the library witht embed :**
+### To use the library witht embed :
 First, import the library : 
 ```python
 from discohooks import Webhook, Embed
