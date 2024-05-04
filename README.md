@@ -22,7 +22,7 @@ The requests library is required.
 
 ```
 # Install Requests Lib
-pip install reqests
+pip install requests
 
 #Install Discohooks Lib
 pip install discohooks
