@@ -94,4 +94,15 @@ hook.send_file("YOUR_FILE")
 First, import the library : 
 ```python
 from discohooks import Webhook, Embed
+
+embed = Embed(title='Title', description='Description', color=0xFF5733)
+embed.add_field(name='Field 1', value='Value 1', inline=False)
+embed.add_field(name='Field 2', value='Value 2', inline=True)
+embed.set_thumbnail(url='https://example.com/thumbnail.jpg')
+embed.set_image(url='https://example.com/image.jpg')
+embed.set_footer(text='Footer text', icon_url='https://example.com/footer_icon.jpg')
+
+hook.send(embed=embed)
+# Here's everything you can put in your webhook's embed.
 ```
+
