@@ -1,2 +1,5 @@
-# discohooks
-An easy python library to use discord webhooks.
+<div align="center">
+
+# DiscoHooks 
+</div>
+
