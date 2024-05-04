@@ -13,6 +13,7 @@ DiscoHooks is a simple python library to use discord webhooks.
 - Delete Webhook
 - Customize Webhook
 - Get Webhook Informations
+- Use multiple webhooks
 
 ## Installing
 The requests library is required.
@@ -30,4 +31,24 @@ pip install discohooks
 First, import the library : 
 ```python
 from discohooks import Webhook
+```
+
+1. **Send Message :**
+```python
+from discohooks import Webhook
+
+hook = Webhook(["webhook_url_1", "webhook_url_2"])
+# Even if you're using only one webhook, still use the [ ]
+
+hook.send(content="Hello Word!")
+```
+
+2. **Delete Webhook :**
+```python
+from discohooks import Webhook
+
+hook = Webhook(["webhook_url_1", "webhook_url_2"])
+# Even if you're using only one webhook, still use the [ ]
+
+hook.delete()
 ```
