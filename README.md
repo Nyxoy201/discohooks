@@ -77,3 +77,20 @@ print(info)
 ```
 These are just two examples; here are all the retrievable pieces of information: 
 `application_id, avatar, channel_id, guild_id, id, name, type, token, url`
+
+5. **Send File :**
+```python
+from discohooks import Webhook
+
+hook = Webhook(["webhook_url_1", "webhook_url_2"])
+# Even if you're using only one webhook, still use the [ ]
+
+hook.send_file("YOUR_FILE")
+```
+
+
+**To use the library witht embed :**
+First, import the library : 
+```python
+from discohooks import Webhook, Embed
+```
