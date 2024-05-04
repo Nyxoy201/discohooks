@@ -26,3 +26,4 @@ pip install discohooks
 ```
 
 ## How To Use
+**To use the library without embed :**
