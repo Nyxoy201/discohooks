@@ -5,6 +5,7 @@
 
 ## Projet Description 
 DiscoHooks is a simple python library to use discord webhooks.
+https://pypi.org/project/discohooks/1.0/
 
 ## Lib Features 
 - Send Message To Webhook
