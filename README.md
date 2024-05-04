@@ -61,5 +61,18 @@ hook = Webhook(["webhook_url_1", "webhook_url_2"])
 # Even if you're using only one webhook, still use the [ ]
 
 hook.customize(name="WEBHOOK_NAME", avatar="AVATAR_URL")
+# If you want, you can choose to take only one of the two.
 ```
 
+4. **Get Webhook Informations :**
+```python
+from discohooks import Webhook
+
+hook = Webhook(["webhook_url_1", "webhook_url_2"])
+# Even if you're using only one webhook, still use the [ ]
+
+info = hook.info(["name", "id"])
+print(info)
+```
+These are just two examples; here are all the retrievable pieces of information: 
+`application_id, avatar, channel_id, guild_id, id, name, type, token, url`
