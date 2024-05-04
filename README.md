@@ -52,3 +52,14 @@ hook = Webhook(["webhook_url_1", "webhook_url_2"])
 
 hook.delete()
 ```
+
+3. **Customize Webhook :**
+```python
+from discohooks import Webhook
+
+hook = Webhook(["webhook_url_1", "webhook_url_2"])
+# Even if you're using only one webhook, still use the [ ]
+
+hook.customize(name="WEBHOOK_NAME", avatar="AVATAR_URL")
+```
+
